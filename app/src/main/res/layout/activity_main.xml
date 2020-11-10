@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtVwDatos1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAC6E1"
+    android:onClick="onClick"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgvWimag"
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        app:srcCompat="@drawable/imagen" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="124dp"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:text="Bienvenida a Encamino con mamá, te ayudaremos a  configurar la aplicación  "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#9B6BF2"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/btnSig"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/boton"
+            android:onClick="onClick"
+            android:text="Siguiente "
+            android:textAllCaps="false"
+            android:textColor="#9B6BF2"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>
